@@ -13,5 +13,26 @@ contract CounterTest is Test {
         collection = new WeSurvivedTheStorm();
     }
 
+    function test_common() public {
+        assertEq(collection.name(), "We Survived The Storm");
+        assertEq(collection.symbol(), "WSTS");
+        assertEq(collection.totalSupply(), 4);
+        assertEq(collection.owner(), admin);
+        assertEq(collection.balanceOf(admin), 4);
+    }
+
+    function test_tokenURI() public {
+        assertEq(collection.tokenURI(1), "ipfs://1");
+        assertEq(collection.tokenURI(2), "ipfs://2");
+        assertEq(collection.tokenURI(3), "ipfs://3");
+        assertEq(collection.tokenURI(4), "ipfs://4");
+    }
+
+    function test_tokenURI(uint256 id) public {
+        vm.assume(id != 1 && id != 2 && id != 3 && id != 4);
+        vm.expectRevert(abi.encodeWithSignature("TokenDoesNotExist()"));
+        collection.tokenURI(id);
+    }
+
     
 }
