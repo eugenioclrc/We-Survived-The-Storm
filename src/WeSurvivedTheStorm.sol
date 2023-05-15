@@ -17,12 +17,12 @@ contract WeSurvivedTheStorm is ERC721 {
         return "WSTS";
     }
 
-    constructor() ERC721() {
-        owner = msg.sender;
-        _mint(msg.sender, 1);
-        _mint(msg.sender, 2);
-        _mint(msg.sender, 3);
-        _mint(msg.sender, 4);
+    constructor(address _owner) ERC721() {
+        owner = _owner;
+        _mint(_owner, 1);
+        _mint(_owner, 2);
+        _mint(_owner, 3);
+        _mint(_owner, 4);
     }
 
     /// @notice ERC2981, Returns the royalty amount for a given NFT and sale price

@@ -7,10 +7,11 @@ import {WeSurvivedTheStorm} from "../src/WeSurvivedTheStorm.sol";
 contract CounterTest is Test {
     WeSurvivedTheStorm public collection;
     address admin = makeAddr("admin");
+    address deployer = makeAddr("deployer");
 
     function setUp() public {
-        vm.prank(admin);
-        collection = new WeSurvivedTheStorm();
+        vm.prank(deployer);
+        collection = new WeSurvivedTheStorm(admin);
     }
 
     function test_common() public {
