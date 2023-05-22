@@ -9,6 +9,8 @@ contract WeSurvivedTheStorm is ERC721 {
     uint256 constant private BPS = 100_00;
     uint256 constant public COMISSION = 5_00;
     
+    string public constant description = "Introducing 'We Survived The Storm', a groundbreaking NFT collection that fuses the talents of musician Moise and multi-talented artist and creative director David Maxwell. The collection features four sped-up versions of songs that paint a vivid and vibrant world, featuring the sounds of Lee Scratch Perry, Raspberry Tea, Paranoia, and Astral Planes from the also-titled album 'We Survived The Storm, Vol. 2'.";
+    
     function name() public pure override returns (string memory) {
         return "We Survived The Storm";
     }
