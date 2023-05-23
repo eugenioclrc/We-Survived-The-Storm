@@ -9,7 +9,7 @@ contract DeployScript is Script {
 
     function run() public returns (address collection) {
         vm.broadcast();
-        // @todo setup a collection owner wallet
-        // collection = address(new WeSurvivedTheStorm());
+        address owner = 0xdd4B140eAb54A593d5a23248abe12551644c0892;
+        collection = address(new WeSurvivedTheStorm(owner));
     }
 }
