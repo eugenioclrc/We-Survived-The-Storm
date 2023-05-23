@@ -34,6 +34,4 @@ contract CounterTest is Test {
         vm.expectRevert(abi.encodeWithSignature("TokenDoesNotExist()"));
         collection.tokenURI(id);
     }
-
-    
 }
