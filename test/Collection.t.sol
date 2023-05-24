@@ -4,7 +4,7 @@ pragma solidity ^0.8.13;
 import "forge-std/Test.sol";
 import {WeSurvivedTheStorm} from "../src/WeSurvivedTheStorm.sol";
 
-contract CounterTest is Test {
+contract CollectionTest is Test {
     WeSurvivedTheStorm public collection;
     address admin = makeAddr("admin");
     address deployer = makeAddr("deployer");
