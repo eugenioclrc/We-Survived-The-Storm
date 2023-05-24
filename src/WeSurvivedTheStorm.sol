@@ -61,7 +61,7 @@ contract WeSurvivedTheStorm is ERC721 {
              * keeping a healthy lifestyle and finding balance is essential. In this
              * image, the sport of choice is basketball.
              */
-            return "ipfs://1";
+            return "ipfs://bafkreib2uzlwbxe2jnnqibqpnyjb2ql2jbbrylrigjy7afp34gv2aqig3m";
         } else if (id == 2) {
             /**
              * RASPBERRY TEA
@@ -72,7 +72,7 @@ contract WeSurvivedTheStorm is ERC721 {
              * must keep a healthy lifestyle and find balance in the foods we consume.
              * In this image, the fruit of choice is raspberry.
              */
-            return "ipfs://2";
+            return "ipfs://bafkreibm4tsf3rt5yitzshvcvg4zssusxjc4pc2faeta6kbhgmq27qjmfi";
         } else if (id == 3) {
             /**
              * PARANOIA
@@ -83,7 +83,7 @@ contract WeSurvivedTheStorm is ERC721 {
              * pursuing our dreams no matter how far out they may be. In this image,
              * characters are jumping in parachutes through this stormy foreground.
              */
-            return "ipfs://3";
+            return "ipfs://bafkreihzdmqdkymnnurbggglpi5ipnk6z56g4xps7rbnb6hwtyaoxmkufi";
         } else if (id == 4) {
             /**
              * ASTRAL PLANES
@@ -96,13 +96,13 @@ contract WeSurvivedTheStorm is ERC721 {
              * and continue to be resilient when times get tough. This image has a
              * paper plane shaped like a heart soaring across the sky.
              */
-            return "ipfs://4";
+            return "ipfs://bafkreiha24ww7hrxnpftw5ogucvdth5hanaubmz5ayv5jaztg3dufznk7u";
         } else {
             revert TokenDoesNotExist();
         }
     }
 
     function contractURI() external pure returns (string memory) {
-        return "ipfs://";
+        return "ipfs://bafkreif57iv2anj5inrg2mcy3lf35efckry4xgroyanudfptjmljfk65gq";
     }
 }
