@@ -5,6 +5,7 @@ libs = ["lib"]
 
 via-ir = true
 optimize = true
-optimize-runs = 1000
+optimize-runs = 200
+evm_version = "paris"
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
