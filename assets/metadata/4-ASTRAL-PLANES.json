@@ -1,0 +1,20 @@
+{
+  "name": "ASTRAL PLANES",
+  "description": "The fourth song in the collection from “We Survived The Storm” The inspiration behind this piece and the music came from the feeling of having your back against the wall, and it’s up to you to keep pushing to get back up on your feet. As we get caught up in work, relationships, and our passions, it is essential to not let yourself ever get too down, surround yourself with people who believe in you, and continue to be resilient when times get tough. This image has a paper plane shaped like a heart soaring across the sky.",
+  "image": "ipfs://TODO",
+  "animation_url":"ipfs://TODO",
+  "attributes": [
+    {
+      "trait_type": "Vibe", 
+      "value": "Intergalactic Pop"
+    },
+    {
+      "trait_type": "Speed", 
+      "value": "Fast"
+    },
+    {
+      "trait_type": "Color", 
+      "value": "Starry Night"
+    }
+  ]
+}

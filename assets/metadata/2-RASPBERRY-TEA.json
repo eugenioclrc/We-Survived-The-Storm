@@ -1,0 +1,22 @@
+{
+  "name": "RASPBERRY TEA",
+  "description": "The second song in the collection from “We Survived The Storm” The inspiration behind this piece and the music came from the natural nourishment that fruits can provide for people through their day-to-day lives. As we get caught up in work, relationships, and our passions, we must keep a healthy lifestyle and find balance in the foods we consume. In this image, the fruit of choice is raspberry.",
+  "image": "ipfs://QmSbFasPEHbjA7RPVXzT9gc2VKG896SChogMUXf7mzHZYR",
+  "animation_url": "ipfs://QmZREZEECRaSNYJFC466jdCE7yNFxWHkrZu2cNg9vkb74n",
+  "youtube_url": "https://youtu.be/H6Gjuqk9UWU",
+  "external_url": "https://youtu.be/H6Gjuqk9UWU",
+  "attributes": [
+    {
+      "trait_type": "Vibe", 
+      "value": "Silky R&B"
+    },
+    {
+      "trait_type": "Speed", 
+      "value": "Fast"
+    },
+    {
+      "trait_type": "Color", 
+      "value": "Melting Sunrise"
+    }
+  ]
+}
