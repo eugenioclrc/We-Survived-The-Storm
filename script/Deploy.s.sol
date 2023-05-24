@@ -13,3 +13,6 @@ contract DeployScript is Script {
         collection = address(new WeSurvivedTheStorm(owner));
     }
 }
+
+// deploy on testnet using
+// forge script script/Deploy.s.sol --broadcast --rpc-url https://rpc.ankr.com/eth_goerli --private-key <private-key>
