@@ -16,3 +16,5 @@ contract DeployScript is Script {
 
 // deploy on testnet using
 // forge script script/Deploy.s.sol --broadcast --rpc-url https://rpc.ankr.com/eth_goerli --private-key <private-key>
+// validate using
+// forge verify-contract 0xd7f998d360bb59119d35a0dcf40f1cfeb45ad389 WeSurvivedTheStorm --chain-id=5 --watch --constructor-args 0x000000000000000000000000dd4b140eab54a593d5a23248abe12551644c0892 --etherscan-api-key <etherscan-api-key>
