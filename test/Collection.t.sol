@@ -14,6 +14,13 @@ contract CollectionTest is Test {
         collection = new WeSurvivedTheStorm(admin);
     }
 
+    function invariant_collectionInvariants() public {
+        assertEq(collection.name(), "We Survived The Storm");
+        assertEq(collection.symbol(), "WSTS");
+        assertEq(collection.totalSupply(), 4);
+        assertEq(collection.owner(), admin);
+    }
+
     function test_common() public {
         assertEq(collection.name(), "We Survived The Storm");
         assertEq(collection.symbol(), "WSTS");
