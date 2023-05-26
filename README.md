@@ -11,10 +11,10 @@ The NFT collection consists of 4 unique NFTs, each representing a different song
 
 ### NFT Details
 
-1. [LEE SCRATCH PERRY](https://ipfs.io/ipfs/bafkreib2uzlwbxe2jnnqibqpnyjb2ql2jbbrylrigjy7afp34gv2aqig3m)
-2. [RASPBERRY TEA](https://ipfs.io/ipfs/bafkreibm4tsf3rt5yitzshvcvg4zssusxjc4pc2faeta6kbhgmq27qjmfi)
-3. [PARANOIA](https://ipfs.io/ipfs/bafkreihzdmqdkymnnurbggglpi5ipnk6z56g4xps7rbnb6hwtyaoxmkufi)
-4. [ASTRAL PLANES](https://ipfs.io/ipfs/bafkreiha24ww7hrxnpftw5ogucvdth5hanaubmz5ayv5jaztg3dufznk7u)
+1. [LEE SCRATCH PERRY](https://cloudflare-ipfs.com/ipfs/QmWsXedSjjAMFsmcqjiSCvDzw54Y6Y14YCkG8eCRSedgrW)
+2. [RASPBERRY TEA](https://cloudflare-ipfs.com/ipfs/QmebwZYDtfgnqdoyCvgcB2Cr4K73dHjjWi1nYdKZ1zusJH)
+3. [PARANOIA](https://cloudflare-ipfs.com/ipfs/QmRXb3ega7nw7PhXZ9hkXt433dqH4dy4MGbeVGMRrdJTxD)
+4. [ASTRAL PLANES](https://cloudflare-ipfs.com/ipfs/QmYUrFiqsUoEpbyG6Tbb1bxM5N3rJfCfctyoxBTRnTmUzd)
 
 ## Contract Code Overview
 
