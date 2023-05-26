@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: UNLICENSED
+// SPDX-License-Identifier: MIT
 pragma solidity 0.8.20;
 
 import {ERC721} from "solady/tokens/ERC721.sol";
@@ -12,6 +12,7 @@ import {ERC721} from "solady/tokens/ERC721.sol";
  * from the also-titled album 'We Survived The Storm, Vol. 2'."
  */
 
+/// @notice ERC721 token contract for the "We Survived The Storm" collection
 contract WeSurvivedTheStorm is ERC721 {
     uint256 public constant totalSupply = 4;
     address public immutable owner;
@@ -61,7 +62,7 @@ contract WeSurvivedTheStorm is ERC721 {
              * keeping a healthy lifestyle and finding balance is essential. In this
              * image, the sport of choice is basketball.
              */
-            return "ipfs://bafkreib2uzlwbxe2jnnqibqpnyjb2ql2jbbrylrigjy7afp34gv2aqig3m";
+            return "ipfs://QmeFPUfSkhweSWoBz1DvZMv3gDmZWuo9fwHQueZmhS5vTA";
         } else if (id == 2) {
             /**
              * RASPBERRY TEA
@@ -72,7 +73,7 @@ contract WeSurvivedTheStorm is ERC721 {
              * must keep a healthy lifestyle and find balance in the foods we consume.
              * In this image, the fruit of choice is raspberry.
              */
-            return "ipfs://bafkreibm4tsf3rt5yitzshvcvg4zssusxjc4pc2faeta6kbhgmq27qjmfi";
+            return "ipfs://QmcNShA8jhz7eQkTcgzp7Ek3bJ4oYiUexNvwos4vAwscQZ";
         } else if (id == 3) {
             /**
              * PARANOIA
@@ -83,7 +84,7 @@ contract WeSurvivedTheStorm is ERC721 {
              * pursuing our dreams no matter how far out they may be. In this image,
              * characters are jumping in parachutes through this stormy foreground.
              */
-            return "ipfs://bafkreihzdmqdkymnnurbggglpi5ipnk6z56g4xps7rbnb6hwtyaoxmkufi";
+            return "ipfs://QmVsxNXveULkYUrLbfL43nuRSNxojWKMxoxGKNmf2LhTkp";
         } else if (id == 4) {
             /**
              * ASTRAL PLANES
@@ -96,13 +97,13 @@ contract WeSurvivedTheStorm is ERC721 {
              * and continue to be resilient when times get tough. This image has a
              * paper plane shaped like a heart soaring across the sky.
              */
-            return "ipfs://bafkreiha24ww7hrxnpftw5ogucvdth5hanaubmz5ayv5jaztg3dufznk7u";
+            return "ipfs://QmcVLSNwtG6wC98pUZSfFb6tA69QY33iwTbmhGrUhctHjL";
         } else {
             revert TokenDoesNotExist();
         }
     }
 
     function contractURI() external pure returns (string memory) {
-        return "ipfs://bafkreif57iv2anj5inrg2mcy3lf35efckry4xgroyanudfptjmljfk65gq";
+        return "ipfs://QmPdKkpv8JPu1xBymm3iKHCRbqcQJntxkFLaerUoPFwDCp";
     }
 }
